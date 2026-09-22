@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+    padding: 1.5rem , 3rem;
+}
+img.inline{
+    display: inline;
+    height: 20px;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+div{
+    
+    object-fit:cover;
+}
+span{
+    margin-left: 0.5rem;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap:1rem;
+    margin-right: 1rem;
+    font-size: large;
+    font-family: sans-serif;
+}
